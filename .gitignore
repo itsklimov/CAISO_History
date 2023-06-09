@@ -1,3 +1,4 @@
+.gitignore
 sch-env/bin/activate
 sch-env/bin/activate.csh
 sch-env/bin/activate.fish
