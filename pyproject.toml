@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "caiso-history"
+version = "0.1.0"
+description = ""
+authors = ["Nikolay Klimov <itsklimov@gmail.com>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pandas = "^2.1.4"
+pycaiso = "^0.2.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
